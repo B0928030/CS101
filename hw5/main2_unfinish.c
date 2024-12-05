@@ -13,12 +13,9 @@ int main() {
             
         }
         x+=2;
-        i = PI*100000;
+        i = PI*100000 + 0.5;
     }
-    printf("%d\n",i);
-    printf("%.6f\n",PI);
-    i = PI*100000;
-    printf("%d\n",i);
-    printf("%d",x);
+    printf("%.5f\n",PI);
+    printf("%d",x-=2);
     return 0;
 }
